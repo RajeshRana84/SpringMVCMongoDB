@@ -11,6 +11,8 @@ import com.mongodb.Mongo;
 import com.mongodb.MongoClient;
 
 public class MongoDBExample {
+	
+	// First Example
 	public static void main(String[] args) throws UnknownHostException {
 		Mongo mongo = new MongoClient();
 		DB db = mongo.getDB("database");
